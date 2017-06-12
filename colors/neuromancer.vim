@@ -87,3 +87,26 @@ highlight link pythonRepeat pythonExClass
 
 " pythonBoolean
 highlight link pythonBoolean Function
+
+"" MARKDOWN SPECIFIC SETTINGS
+
+highlight link markdownH1 Function
+highlight link markdownH2 markdownH1
+highlight link markdownH3 markdownH1
+highlight link markdownH4 markdownH1
+highlight link markdownH5 markdownH1
+highlight link markdownH6 markdownH1
+
+highlight link markdownHeadingDelimiter Statement
+highlight link markdownHeadingRule pythonRun
+highlight link markdownBoldDelimiter markdownBold
+highlight link markdownUrl LineNr
+highlight link markdownUrlTitle pythonExClass
+highlight link markdownUrlTitleDelimiter pythonExClass
+
+highlight markdownBold guifg=#f5d639 guibg=NONE gui=bold cterm=bold
+highlight markdownItalic guifg=#36d977 guibg=NONE gui=italic cterm=italic
+
+highlight markdownLinkText guifg=#ff2449 guibg=NONE gui=NONE cterm=underline
+
+
