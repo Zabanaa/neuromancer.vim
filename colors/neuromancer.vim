@@ -26,7 +26,7 @@ highlight link Constant Function
 highlight Statement guifg=#5a75ed guibg=NONE gui=NONE
 
 " background
-highlight Normal guibg=#000000
+highlight Normal guibg=#000000 guifg=#ffffff
 
 " line number
 highlight LineNr guifg=#858eed
@@ -108,5 +108,3 @@ highlight markdownBold guifg=#f5d639 guibg=NONE gui=bold cterm=bold
 highlight markdownItalic guifg=#36d977 guibg=NONE gui=italic cterm=italic
 
 highlight markdownLinkText guifg=#ff2449 guibg=NONE gui=NONE cterm=underline
-
-
