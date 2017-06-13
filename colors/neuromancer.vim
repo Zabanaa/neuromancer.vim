@@ -16,6 +16,9 @@ let g:colors_name = "neuromancer"
 " Error (currenlty white on red)
 " Todo (currently blue on yellow)
 
+" Colored column to the right
+highlight ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
+
 " Conditional (purple-ish)
 highlight Conditional guifg=#a121eb guibg=NONE gui=NONE
 
@@ -26,7 +29,7 @@ highlight link Constant Function
 highlight Statement guifg=#5a75ed guibg=NONE gui=NONE
 
 " background
-highlight Normal guibg=#000000 guifg=#ffffff
+highlight Normal guibg=#191623 guifg=#ffffff
 
 " line number
 highlight LineNr guifg=#858eed
@@ -35,13 +38,14 @@ highlight LineNr guifg=#858eed
 highlight CursorLineNr guifg=#ffffff
 
 " Comment
-highlight Comment guifg=#585859 guibg=NONE gui=NONE
+highlight Comment guifg=#595861 guibg=NONE gui=NONE
 
 " PreProc (python decorator, python include etc ...)
 highlight PreProc guifg=#eb942a guibg=NONE gui=NONE
 
 " String (lightish purple / same as LineNr)
-highlight link String LineNr
+" highlight link String LineNr
+highlight String guifg=#6ac5a7 guibg=NONE gui=NONE
 
 " Number (Purple)
 highlight Number guifg=#8c57f0 guibg=NONE gui=NONE
@@ -50,7 +54,7 @@ highlight Number guifg=#8c57f0 guibg=NONE gui=NONE
 highlight link Float Number
 
 " Function (pink)
-highlight Function guifg=#f536a9 guibg=NONE gui=NONE
+highlight Function guifg=#f23b92 guibg=NONE gui=NONE
 
 " Repeat (lightred)
 highlight Repeat guifg=#f72358 guibg=NONE gui=NONE
@@ -59,7 +63,7 @@ highlight Repeat guifg=#f72358 guibg=NONE gui=NONE
 highlight Operator guifg=#f72358 guibg=NONE gui=NONE
 
 " pythonOperator (yellowish)
-highlight link pythonOperator pythonExClass
+highlight link pythonOperator pythonRepeat
 
 " Python Import (pink / same as Function)
 highlight link pythonImport Function
@@ -68,25 +72,29 @@ highlight link pythonImport Function
 highlight pythonRun guifg=#575758 guibg=NONE gui=NONE
 
 " pythonException (red)
-highlight pythonException guifg=#ff2449 guibg=NONE gui=NONE
+" highlight pythonException guifg=#ff2449 guibg=NONE gui=NONE
+highlight link pythonException Statement
 
-" pythonExClass (yellowish)
-highlight pythonExClass guifg=#f5d639 guibg=NONE gui=NONE
+" pythonExClass (turquoise)
+highlight link pythonExClass Function
 
 " pythonStrFormat (turquoise)
-highlight pythonStrFormat guifg=#36d977 guibg=NONE gui=NONE
+highlight pythonStrFormat guifg=#e9de2a guibg=NONE gui=NONE
 
 " pythonStrFormatting (same as above)
 highlight link pythonStrFormatting pythonStrFormat
 
 " pythonConditional (red as pythonException)
-highlight link pythonConditional pythonException
+highlight pythonConditional guifg=#ffc589 guibg=NONE gui=NONE
 
 " pythonRepeat (yellow-ish / same as pythonExClass)
-highlight link pythonRepeat pythonExClass
+highlight pythonRepeat guifg=#d16767 guibg=NONE gui=NONE
 
 " pythonBoolean
 highlight link pythonBoolean Function
+
+"pythonBuiltinObj
+highlight link pythonBuiltinObj pythonRepeat
 
 "" MARKDOWN SPECIFIC SETTINGS
 
