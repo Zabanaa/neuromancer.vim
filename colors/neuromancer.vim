@@ -16,6 +16,7 @@ let g:colors_name = "neuromancer"
 " Error (currenlty white on red)
 " Todo (currently blue on yellow)
 
+
 " Colored column to the right
 highlight ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
 
@@ -38,7 +39,7 @@ highlight LineNr guifg=#858eed
 highlight CursorLineNr guifg=#ffffff
 
 " Comment
-highlight Comment guifg=#595861 guibg=NONE gui=NONE
+highlight Comment guifg=#7e7e7e guibg=NONE gui=NONE
 
 " PreProc (python decorator, python include etc ...)
 highlight PreProc guifg=#eb942a guibg=NONE gui=NONE
@@ -96,8 +97,10 @@ highlight link pythonBoolean Function
 "pythonBuiltinObj
 highlight link pythonBuiltinObj pythonRepeat
 
-"" MARKDOWN SPECIFIC SETTINGS
-
+""""""""""""""""""""""""""""""
+" Markdown specific settings "
+"                            "
+""""""""""""""""""""""""""""""
 highlight link markdownH1 Function
 highlight link markdownH2 markdownH1
 highlight link markdownH3 markdownH1
@@ -116,3 +119,13 @@ highlight markdownBold guifg=#f5d639 guibg=NONE gui=bold cterm=bold
 highlight markdownItalic guifg=#36d977 guibg=NONE gui=italic cterm=italic
 
 highlight markdownLinkText guifg=#ff2449 guibg=NONE gui=NONE cterm=underline
+
+""""""""""""""""""""""""""""""
+" NERDTree specific settings "
+"                            "
+""""""""""""""""""""""""""""""
+highlight link NERDTreeOpenable Function
+highlight link NERDTreeClosable Function
+highlight link NERDTreeDirSlash Function
+highlight link NERDTreeDir Function
+highlight link NERDTreeCWD pythonConditional
