@@ -23,7 +23,21 @@ I intend to fully support the following languages:
 
 It's going to be a lot of work, but also a lot of fun.
 
+## Installation instructions
+
+To start using the colorscheme, simply copy it over to your `.vim/colors`
+directory. (You can create it if you don't have it)
+
+```bash
+git clone https://github.com/Zabanaa/neuromancer.vim.git
+
+# Assuming you've cloned the repo in your home directory, just run the following
+# command
+
+cp neuromancer.vim/colors/neuromancer.vim ~/.vim/colors/
+```
+Then, in your .vimrc file, simply change the colorscheme line to the following:
+`colorscheme neuromancer`
+
 Feel free to leave any feedback, notes or comments. I'm
 [@zabanaa\_](https://twitter.com/zabanaa_) on twitter.
-
-
