@@ -21,16 +21,17 @@ let g:colors_name = "neuromancer"
 highlight ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
 
 " Conditional (purple-ish)
-highlight Conditional guifg=#a121eb guibg=NONE gui=NONE
+highlight Conditional guifg=#D961DC guibg=NONE gui=NONE
 
 " Constant (booleans etc) (Pink / Same as Function)
 highlight link Constant Function
 
 " statments
-highlight Statement guifg=#5a75ed guibg=NONE gui=NONE
+" highlight Statement guifg=#5a75ed guibg=NONE gui=NONE
+highlight Statement guifg=#439ECF guibg=NONE gui=NONE
 
 " background
-highlight Normal guibg=#191623 guifg=#ffffff
+highlight Normal guibg=#050809 guifg=#ffffff
 
 " line number
 highlight LineNr guifg=#858eed
@@ -46,7 +47,8 @@ highlight PreProc guifg=#eb942a guibg=NONE gui=NONE
 
 " String (lightish purple / same as LineNr)
 " highlight link String LineNr
-highlight String guifg=#6ac5a7 guibg=NONE gui=NONE
+highlight String guifg=#96dcda guibg=NONE gui=NONE
+" highlight String guifg=#6ac5a7 guibg=NONE gui=NONE
 
 " Number (Purple)
 highlight Number guifg=#8c57f0 guibg=NONE gui=NONE
@@ -80,16 +82,18 @@ highlight link pythonException Statement
 highlight link pythonExClass Function
 
 " pythonStrFormat (turquoise)
-highlight pythonStrFormat guifg=#e9de2a guibg=NONE gui=NONE
+highlight pythonStrFormat guifg=#DAB752 guibg=NONE gui=NONE
+" highlight pythonStrFormat guifg=#e9de2a guibg=NONE gui=NONE
 
 " pythonStrFormatting (same as above)
 highlight link pythonStrFormatting pythonStrFormat
 
 " pythonConditional (red as pythonException)
-highlight pythonConditional guifg=#ffc589 guibg=NONE gui=NONE
+highlight link pythonConditional Conditional
 
 " pythonRepeat (yellow-ish / same as pythonExClass)
-highlight pythonRepeat guifg=#d16767 guibg=NONE gui=NONE
+highlight pythonRepeat guifg=#f99a34 guibg=NONE gui=NONE
+" highlight pythonRepeat guifg=#EE3838 guibg=NONE gui=NONE
 
 " pythonBoolean
 highlight link pythonBoolean Function
