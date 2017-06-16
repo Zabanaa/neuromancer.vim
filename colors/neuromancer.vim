@@ -157,10 +157,14 @@ highlight link javascriptMessage LineNr
 highlight link javascriptHtmlElemProperties javascriptNull
 highlight link javascriptDOMObjects Function
 highlight link javascriptHtmlEvents String
+highlight link javascriptReserved pythonException
 
 highlight link javascriptGlobalObjects LineNr
 highlight link javascriptPrototype String
 highlight link javascriptEventListenerKeywords Function
 highlight link javascriptAjaxMethods Function
+highlight link javascriptAjaxProperties javascriptNull
 highlight link javascriptDOMMethods String
+highlight link javascriptWebAPI LineNr
+highlight link javascriptOperator Function
 
