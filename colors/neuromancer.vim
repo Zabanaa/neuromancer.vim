@@ -27,8 +27,7 @@ highlight Conditional guifg=#D961DC guibg=NONE gui=NONE
 highlight link Constant Function
 
 " statments
-" highlight Statement guifg=#5a75ed guibg=NONE gui=NONE
-highlight Statement guifg=#439ECF guibg=NONE gui=NONE
+highlight Statement guifg=#277BD3 guibg=NONE gui=NONE
 
 " background
 highlight Normal guibg=#050809 guifg=#ffffff
@@ -57,7 +56,8 @@ highlight Number guifg=#8c57f0 guibg=NONE gui=NONE
 highlight link Float Number
 
 " Function (pink)
-highlight Function guifg=#f23b92 guibg=NONE gui=NONE
+" highlight Function guifg=#f23b92 guibg=NONE gui=NONE
+highlight Function guifg=#de347a guibg=NONE gui=NONE
 
 " Repeat (lightred)
 highlight Repeat guifg=#f72358 guibg=NONE gui=NONE
