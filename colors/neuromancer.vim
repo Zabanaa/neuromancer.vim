@@ -83,7 +83,6 @@ highlight link pythonExClass Function
 
 " pythonStrFormat (turquoise)
 highlight pythonStrFormat guifg=#DAB752 guibg=NONE gui=NONE
-" highlight pythonStrFormat guifg=#e9de2a guibg=NONE gui=NONE
 
 " pythonStrFormatting (same as above)
 highlight link pythonStrFormatting pythonStrFormat
@@ -93,7 +92,6 @@ highlight link pythonConditional Conditional
 
 " pythonRepeat (yellow-ish / same as pythonExClass)
 highlight pythonRepeat guifg=#f99a34 guibg=NONE gui=NONE
-" highlight pythonRepeat guifg=#EE3838 guibg=NONE gui=NONE
 
 " pythonBoolean
 highlight link pythonBoolean Function
@@ -133,3 +131,36 @@ highlight link NERDTreeClosable Function
 highlight link NERDTreeDirSlash Function
 highlight link NERDTreeDir Function
 highlight link NERDTreeCWD pythonConditional
+
+""""""""""""""""""""""""""""""""
+" Javascript specific settings "
+"                              "
+""""""""""""""""""""""""""""""""
+
+highlight link javascriptConditional Conditional
+highlight javascriptParens guifg=NONE guibg=NONE gui=NONE
+highlight javascriptBraces guifg=NONE guibg=NONE gui=NONE
+highlight link javascriptFuncArg String
+highlight link javascriptFuncComma String
+highlight link javascriptFuncExp Statement
+highlight javascriptOpSymbols guifg=NONE guibg=NONE gui=NONE
+highlight javascriptFuncEq guifg=NONE guibg=NONE gui=NONE
+highlight javascriptEndColons guifg=NONE guibg=NONE gui=NONE
+highlight link javascriptIdentifier LineNr
+highlight link javascriptNull pythonBuiltinObj
+highlight link javascriptBoolean javascriptFuncExp
+highlight link javascriptExceptions LineNr
+highlight link javascriptLogicSymbols javascriptConditional
+highlight link javascriptGlobal javascriptNull
+highlight link javascriptBrowserObjects PreProc
+highlight link javascriptMessage LineNr
+highlight link javascriptHtmlElemProperties javascriptNull
+highlight link javascriptDOMObjects Function
+highlight link javascriptHtmlEvents String
+
+highlight link javascriptGlobalObjects LineNr
+highlight link javascriptPrototype String
+highlight link javascriptEventListenerKeywords Function
+highlight link javascriptAjaxMethods Function
+highlight link javascriptDOMMethods String
+
