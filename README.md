@@ -10,8 +10,8 @@ I intend to fully support the following languages:
 
 - [x] Python
 - [x] Markdown
+- [x] Javascript
 
-- [ ] Javascript
 - [ ] Sass
 - [ ] Golang
 - [ ] SQL
