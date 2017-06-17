@@ -11,15 +11,15 @@ I intend to fully support the following languages:
 - [x] Python
 - [x] Markdown
 - [x] Javascript
-
-- [ ] Sass
-- [ ] Golang
-- [ ] SQL
+- [x] Sass
 - [ ] HTML
+- [ ] SQL
+- [ ] Bash
+- [ ] Golang
+
 - [ ] Jinja2 (the templating engine)
 - [ ] Yaml
 - [ ] Docker
-- [ ] Bash
 
 It's going to be a lot of work, but also a lot of fun.
 
