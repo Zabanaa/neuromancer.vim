@@ -45,9 +45,7 @@ highlight Comment guifg=#7e7e7e guibg=NONE gui=NONE
 highlight PreProc guifg=#eb942a guibg=NONE gui=NONE
 
 " String (lightish purple / same as LineNr)
-" highlight link String LineNr
 highlight String guifg=#96dcda guibg=NONE gui=NONE
-" highlight String guifg=#6ac5a7 guibg=NONE gui=NONE
 
 " Number (Purple)
 highlight Number guifg=#8c57f0 guibg=NONE gui=NONE
@@ -167,4 +165,68 @@ highlight link javascriptAjaxProperties javascriptNull
 highlight link javascriptDOMMethods String
 highlight link javascriptWebAPI LineNr
 highlight link javascriptOperator Function
+
+""""""""""""""""""""""""""""""""
+"   Sass specific settings     "
+"                              "
+""""""""""""""""""""""""""""""""
+hi link sassInclude Function
+hi link cssFunctionName Statement
+hi cssStringQ guifg=NONE guibg=NONE gui=NONE
+hi link cssStringQQ String
+hi link sassVariable Statement
+hi link cssColor String
+hi link cssUnitDecorators String
+hi link cssFontAttr Conditional
+hi link sassMixin LineNr
+hi link sassMixing Normal
+hi link sassMixinName String
+hi link sassAmpersand String
+hi link sassMedia String
+hi link sassMediaQuery Function
+hi link cssFunctionName Function
+
+hi link sassClass Function
+hi link sassClassChar Normal
+
+hi link sassId Statement
+hi link sassIdChar Normal
+
+hi link sassFunctionDecl Function
+hi link sassControl Function
+hi link sassDebug Function
+hi link sassWarn Function
+hi link sassReturn Function
+hi link sassPlaceholder String
+
+
+hi link sassProperty LineNr
+hi link cssTextProp  LineNr
+hi link cssBoxProp LineNr
+hi link cssIEUIProp LineNr
+hi link cssPositioningProp LineNr
+hi link cssFontProp LineNr
+hi link cssMultiColumnProp LineNr
+hi link cssAuralProp LineNr
+hi link cssAnimationProp LineNr
+hi link cssTableProp LineNr
+hi link cssDimensionProp LineNr
+hi link cssBorderProp LineNr
+hi link cssTransformProp LineNr
+hi link cssTransitionProp LineNr
+hi link cssMediaProp LineNr
+hi link cssFlexibleBoxProp LineNr
+hi link cssColorProp LineNr
+
+hi link sassCssAttribute cssCommonAttr
+hi link cssPseudoClassId Normal
+hi link cssTextAttr cssCommonAttr
+hi link cssMultiColumnAttr cssCommonAttr
+hi link cssValueLength cssCommonAttr
+hi link cssValueNumber cssCommonAttr
+hi link cssTagName String
+hi link cssAttrComma String
+hi link cssSelectorOp Function
+
+
 
