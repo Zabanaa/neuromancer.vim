@@ -18,153 +18,155 @@ let g:colors_name = "neuromancer"
 
 
 " Colored column to the right
-highlight ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
+hi ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
 
 " Conditional (purple-ish)
-highlight Conditional guifg=#D961DC guibg=NONE gui=NONE
+hi Conditional guifg=#D961DC guibg=NONE gui=NONE
 
 " Constant (booleans etc) (Pink / Same as Function)
-highlight link Constant Function
+hi link Constant Function
 
 " statments
-highlight Statement guifg=#277BD3 guibg=NONE gui=NONE
+hi Statement guifg=#277BD3 guibg=NONE gui=NONE
 
 " background
-highlight Normal guibg=#050809 guifg=#ffffff
+hi Normal guibg=#050809 guifg=#ffffff
 
 " line number
-highlight LineNr guifg=#858eed
+hi LineNr guifg=#858eed
 
 " cursor line number (white)
-highlight CursorLineNr guifg=#ffffff
+hi CursorLineNr guifg=#ffffff
 
 " Comment
-highlight Comment guifg=#7e7e7e guibg=NONE gui=NONE
+hi Comment guifg=#7e7e7e guibg=NONE gui=NONE
 
 " PreProc (python decorator, python include etc ...)
-highlight PreProc guifg=#eb942a guibg=NONE gui=NONE
+hi PreProc guifg=#eb942a guibg=NONE gui=NONE
 
 " String (lightish purple / same as LineNr)
-highlight String guifg=#96dcda guibg=NONE gui=NONE
+hi String guifg=#96dcda guibg=NONE gui=NONE
 
 " Number (Purple)
-highlight Number guifg=#8c57f0 guibg=NONE gui=NONE
+hi Number guifg=#8c57f0 guibg=NONE gui=NONE
 
 " Float (same as Number)
-highlight link Float Number
+hi link Float Number
 
 " Function (pink)
-" highlight Function guifg=#f23b92 guibg=NONE gui=NONE
-highlight Function guifg=#de347a guibg=NONE gui=NONE
+" hi Function guifg=#f23b92 guibg=NONE gui=NONE
+hi Function guifg=#de347a guibg=NONE gui=NONE
 
 " Repeat (lightred)
-highlight Repeat guifg=#f72358 guibg=NONE gui=NONE
+hi Repeat guifg=#f72358 guibg=NONE gui=NONE
 
 " Operator (pink-ish / Modified for python)
-highlight Operator guifg=#f72358 guibg=NONE gui=NONE
+hi Operator guifg=#f72358 guibg=NONE gui=NONE
 
 " pythonOperator (yellowish)
-highlight link pythonOperator pythonRepeat
+hi link pythonOperator pythonRepeat
 
 " Python Import (pink / same as Function)
-highlight link pythonImport Function
+hi link pythonImport Function
 
 " Python Run (dark gray)
-highlight pythonRun guifg=#575758 guibg=NONE gui=NONE
+hi pythonRun guifg=#575758 guibg=NONE gui=NONE
 
 " pythonException (red)
-" highlight pythonException guifg=#ff2449 guibg=NONE gui=NONE
-highlight link pythonException Statement
+" hi pythonException guifg=#ff2449 guibg=NONE gui=NONE
+hi link pythonException Statement
 
 " pythonExClass (turquoise)
-highlight link pythonExClass Function
+hi link pythonExClass Function
 
 " pythonStrFormat (turquoise)
-highlight pythonStrFormat guifg=#DAB752 guibg=NONE gui=NONE
+hi pythonStrFormat guifg=#DAB752 guibg=NONE gui=NONE
 
 " pythonStrFormatting (same as above)
-highlight link pythonStrFormatting pythonStrFormat
+hi link pythonStrFormatting pythonStrFormat
 
 " pythonConditional (red as pythonException)
-highlight link pythonConditional Conditional
+hi link pythonConditional Conditional
 
 " pythonRepeat (yellow-ish / same as pythonExClass)
-highlight pythonRepeat guifg=#f99a34 guibg=NONE gui=NONE
+hi pythonRepeat guifg=#f99a34 guibg=NONE gui=NONE
 
 " pythonBoolean
-highlight link pythonBoolean Function
+hi link pythonBoolean Function
 
 "pythonBuiltinObj
-highlight link pythonBuiltinObj pythonRepeat
+hi link pythonBuiltinObj pythonRepeat
 
 """"""""""""""""""""""""""""""
 " Markdown specific settings "
 "                            "
 """"""""""""""""""""""""""""""
-highlight link markdownH1 Function
-highlight link markdownH2 markdownH1
-highlight link markdownH3 markdownH1
-highlight link markdownH4 markdownH1
-highlight link markdownH5 markdownH1
-highlight link markdownH6 markdownH1
+hi link markdownH1 Function
+hi link markdownH2 markdownH1
+hi link markdownH3 markdownH1
+hi link markdownH4 markdownH1
+hi link markdownH5 markdownH1
+hi link markdownH6 markdownH1
 
-highlight link markdownHeadingDelimiter Statement
-highlight link markdownHeadingRule pythonRun
-highlight link markdownBoldDelimiter markdownBold
-highlight link markdownUrl LineNr
-highlight link markdownUrlTitle pythonExClass
-highlight link markdownUrlTitleDelimiter pythonExClass
+hi link markdownHeadingDelimiter Statement
+hi link markdownHeadingRule pythonRun
+hi link markdownBoldDelimiter markdownBold
+hi link markdownUrl LineNr
+hi link markdownUrlTitle pythonExClass
+hi link markdownUrlTitleDelimiter pythonExClass
 
-highlight markdownBold guifg=#f5d639 guibg=NONE gui=bold cterm=bold
-highlight markdownItalic guifg=#36d977 guibg=NONE gui=italic cterm=italic
+hi markdownBold guifg=#f5d639 guibg=NONE gui=bold cterm=bold
+hi markdownItalic guifg=#36d977 guibg=NONE gui=italic cterm=italic
 
-highlight markdownLinkText guifg=#ff2449 guibg=NONE gui=NONE cterm=underline
+hi markdownLinkText guifg=#ff2449 guibg=NONE gui=NONE cterm=underline
 
 """"""""""""""""""""""""""""""
 " NERDTree specific settings "
 "                            "
 """"""""""""""""""""""""""""""
-highlight link NERDTreeOpenable Function
-highlight link NERDTreeClosable Function
-highlight link NERDTreeDirSlash Function
-highlight link NERDTreeDir Function
-highlight link NERDTreeCWD pythonConditional
+hi link NERDTreeOpenable Function
+hi link NERDTreeClosable Function
+hi link NERDTreeDirSlash Function
+hi link NERDTreeDir Function
+hi link NERDTreeCWD pythonConditional
 
 """"""""""""""""""""""""""""""""
 " Javascript specific settings "
 "                              "
 """"""""""""""""""""""""""""""""
 
-highlight link javascriptConditional Conditional
-highlight javascriptParens guifg=NONE guibg=NONE gui=NONE
-highlight javascriptBraces guifg=NONE guibg=NONE gui=NONE
-highlight link javascriptFuncArg String
-highlight link javascriptFuncComma String
-highlight link javascriptFuncExp Statement
-highlight javascriptOpSymbols guifg=NONE guibg=NONE gui=NONE
-highlight javascriptFuncEq guifg=NONE guibg=NONE gui=NONE
-highlight javascriptEndColons guifg=NONE guibg=NONE gui=NONE
-highlight link javascriptIdentifier LineNr
-highlight link javascriptNull pythonBuiltinObj
-highlight link javascriptBoolean javascriptFuncExp
-highlight link javascriptExceptions LineNr
-highlight link javascriptLogicSymbols javascriptConditional
-highlight link javascriptGlobal javascriptNull
-highlight link javascriptBrowserObjects PreProc
-highlight link javascriptMessage LineNr
-highlight link javascriptHtmlElemProperties javascriptNull
-highlight link javascriptDOMObjects Function
-highlight link javascriptHtmlEvents String
-highlight link javascriptReserved pythonException
+hi link javascriptConditional Conditional
+hi javascriptParens guifg=NONE guibg=NONE gui=NONE
+hi javascriptBraces guifg=NONE guibg=NONE gui=NONE
+hi link javascriptFuncArg String
+hi link javascriptFuncComma String
+hi link javascriptFuncExp Statement
+hi javascriptOpSymbols guifg=NONE guibg=NONE gui=NONE
+hi javascriptFuncEq guifg=NONE guibg=NONE gui=NONE
+hi javascriptEndColons guifg=NONE guibg=NONE gui=NONE
+hi link javascriptIdentifier LineNr
+hi link javascriptNull pythonBuiltinObj
+hi link javascriptBoolean javascriptFuncExp
+hi link javascriptExceptions LineNr
+hi link javascriptLogicSymbols javascriptConditional
+hi link javascriptGlobal javascriptNull
+hi link javascriptBrowserObjects PreProc
+hi link javascriptMessage LineNr
+hi link javascriptHtmlElemProperties javascriptNull
+hi link javascriptDOMObjects LineNr
+hi link javascriptHtmlEvents String
+hi link javascriptReserved pythonException
 
-highlight link javascriptGlobalObjects LineNr
-highlight link javascriptPrototype String
-highlight link javascriptEventListenerKeywords Function
-highlight link javascriptAjaxMethods Function
-highlight link javascriptAjaxProperties javascriptNull
-highlight link javascriptDOMMethods String
-highlight link javascriptWebAPI LineNr
-highlight link javascriptOperator Function
+hi link javascriptGlobalObjects LineNr
+hi link javascriptPrototype String
+hi link javascriptEventListenerKeywords Function
+hi link javascriptAjaxMethods Function
+hi link javascriptAjaxProperties javascriptNull
+hi link javascriptDOMMethods String
+hi link javascriptWebAPI LineNr
+hi link javascriptOperator Function
+hi link javascriptOpSymbols Function
+hi link javascriptParens Normal
 
 """"""""""""""""""""""""""""""""
 "   Sass specific settings     "
