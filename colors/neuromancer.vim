@@ -16,86 +16,79 @@ let g:colors_name = "neuromancer"
 " Error (currenlty white on red)
 " Todo (currently blue on yellow)
 
-
-" Colored column to the right
 hi ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
-
-" Conditional (purple-ish)
 hi Conditional guifg=#D961DC guibg=NONE gui=NONE
-
-" Constant (booleans etc) (Pink / Same as Function)
 hi link Constant Function
-
-" statments
 hi Statement guifg=#277BD3 guibg=NONE gui=NONE
-
-" background
 hi Normal guibg=#050809 guifg=#ffffff
-
-" line number
 hi LineNr guifg=#858eed
-
-" cursor line number (white)
 hi CursorLineNr guifg=#ffffff
-
-" Comment
 hi Comment guifg=#7e7e7e guibg=NONE gui=NONE
-
-" PreProc (python decorator, python include etc ...)
 hi PreProc guifg=#eb942a guibg=NONE gui=NONE
-
-" String (lightish purple / same as LineNr)
 hi String guifg=#96dcda guibg=NONE gui=NONE
-
-" Number (Purple)
 hi Number guifg=#8c57f0 guibg=NONE gui=NONE
-
-" Float (same as Number)
 hi link Float Number
-
-" Function (pink)
-" hi Function guifg=#f23b92 guibg=NONE gui=NONE
 hi Function guifg=#de347a guibg=NONE gui=NONE
-
-" Repeat (lightred)
 hi Repeat guifg=#f72358 guibg=NONE gui=NONE
-
-" Operator (pink-ish / Modified for python)
 hi Operator guifg=#f72358 guibg=NONE gui=NONE
 
-" pythonOperator (yellowish)
+""""""""""""""""""""""""""""""
+"   HTML specific settings   "
+"                            "
+""""""""""""""""""""""""""""""
+hi htmlTitle guifg=#DC91DC guibg=NONE gui=underline cterm=underline
+hi link htmlTag Normal
+hi link htmlEndTag Normal
+hi link htmlTagName Statement
+hi link htmlArg Function
+hi link htmlH1 htmlTitle
+hi link htmlH2 htmlTitle
+hi link htmlH3 htmlTitle
+hi link htmlH4 htmlTitle
+hi link htmlH5 htmlTitle
+hi link htmlH6 htmlTitle
+
+
+""""""""""""""""""""""""""""""
+"  Python specific settings  "
+"                            "
+""""""""""""""""""""""""""""""
 hi link pythonOperator pythonRepeat
-
-" Python Import (pink / same as Function)
 hi link pythonImport Function
-
-" Python Run (dark gray)
 hi pythonRun guifg=#575758 guibg=NONE gui=NONE
-
-" pythonException (red)
-" hi pythonException guifg=#ff2449 guibg=NONE gui=NONE
 hi link pythonException Statement
-
-" pythonExClass (turquoise)
 hi link pythonExClass Function
-
-" pythonStrFormat (turquoise)
 hi pythonStrFormat guifg=#DAB752 guibg=NONE gui=NONE
-
-" pythonStrFormatting (same as above)
 hi link pythonStrFormatting pythonStrFormat
-
-" pythonConditional (red as pythonException)
 hi link pythonConditional Conditional
-
-" pythonRepeat (yellow-ish / same as pythonExClass)
 hi pythonRepeat guifg=#f99a34 guibg=NONE gui=NONE
-
-" pythonBoolean
 hi link pythonBoolean Function
-
-"pythonBuiltinObj
 hi link pythonBuiltinObj pythonRepeat
+
+""""""""""""""""""""""""""""""
+"   Vim specific settings    "
+"                            "
+""""""""""""""""""""""""""""""
+hi link vimHiLink Function
+hi link vimHiGroup Function
+hi link vimGroup String
+hi link vimHiKeyList LineNr
+hi link vimHiGuiFgBg LineNr
+hi link vimHiGui LineNr
+hi link vimHiGuiRgb String
+hi link vimSynType String
+hi link vimHiClear String
+hi link vimOption Conditional
+hi link vimVar LineNr
+hi link vimOper Normal
+hi link vimHiCTerm Conditional
+hi link vimHiCTermFgBg Conditional
+hi link vimAutoEventList Function
+hi link vimAutoEvent Function
+hi link vimMapMod Function
+hi link vimMapModKey Function
+hi link vimNotation String
+hi link vimBracket String
 
 """"""""""""""""""""""""""""""
 " Markdown specific settings "
