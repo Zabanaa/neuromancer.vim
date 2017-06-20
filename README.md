@@ -12,7 +12,9 @@ I intend to fully support the following languages:
 - [x] Markdown
 - [x] Javascript
 - [x] Sass
-- [ ] HTML
+- [x] HTML
+- [x] Vim
+
 - [ ] SQL
 - [ ] Bash
 - [ ] Golang
