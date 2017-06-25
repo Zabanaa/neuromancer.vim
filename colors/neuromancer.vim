@@ -16,7 +16,7 @@ let s:colors = {
     \ "dark_gray": "#7E7E7E",
     \ "off_orange": "#EB942A",
     \ "orange": "#f99a34",
-    \ "red": "#f72358",
+    \ "red": "#ff586b",
     \ "pink": "#f72358",
     \ "light_pink": "#DE347A",
     \ "hot_pink": "#FF67AD",
@@ -73,17 +73,20 @@ hi link htmlH6 htmlTitle
 "  Python specific settings  "
 "                            "
 """"""""""""""""""""""""""""""
-hi link pythonOperator pythonRepeat
+
+" lighten up orange
+
 hi link pythonImport Function
-hi pythonRun guifg=#575758 guibg=NONE gui=NONE
-hi link pythonException Statement
-hi link pythonExClass Function
-hi pythonStrFormat guifg=#DAB752 guibg=NONE gui=NONE
+hi link pythonRepeat Conditional
+hi link pythonOperator pythonRepeat
+hi link pythonException Conditional
+hi link pythonExClass Repeat
+hi link pythonStrFormat PreProc
 hi link pythonStrFormatting pythonStrFormat
 hi link pythonConditional Conditional
-hi pythonRepeat guifg=#f99a34 guibg=NONE gui=NONE
 hi link pythonBoolean Function
-hi link pythonBuiltinObj pythonRepeat
+hi link pythonBuiltinObj Repeat
+hi pythonRun guifg=#575758 guibg=NONE gui=NONE
 
 """"""""""""""""""""""""""""""
 "   Vim specific settings    "
