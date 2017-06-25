@@ -227,7 +227,11 @@ hi link sassProperty LineNr
 hi link cssTextProp  LineNr
 hi link cssBoxProp LineNr
 hi link cssIEUIProp LineNr
+hi link cssUIProp LineNr
 hi link cssPositioningProp LineNr
+hi link cssBackgroundProp LineNr
+hi link cssPageProp LineNr
+hi link cssListProp LineNr
 hi link cssFontProp LineNr
 hi link cssMultiColumnProp LineNr
 hi link cssAuralProp LineNr
