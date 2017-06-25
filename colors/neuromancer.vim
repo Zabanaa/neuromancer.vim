@@ -14,13 +14,14 @@ let s:colors = {
     \ "dark_purple": "#8C77F0",
     \ "light_purple": "#858EED",
     \ "dark_gray": "#7E7E7E",
-    \ "orange": "#ffb44e",
+    \ "orange": "#f5d639",
     \ "red": "#ff586b",
     \ "pink": "#f72358",
     \ "light_pink": "#DE347A",
     \ "hot_pink": "#FF67AD",
     \ "black": "#050809",
     \ "white": "#FFFFFF",
+    \ "green": "#36D977",
 \ }
 
 function! Hi(name, guifg, guibg, gui)
