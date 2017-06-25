@@ -49,8 +49,8 @@ call Hi("Operator", s:colors["red"], "NONE", "NONE")
 "    SQL specific settings   "
 "                            "
 """"""""""""""""""""""""""""""
-hi link sqlFunction Conditional
-hi link sqlKeyword Function
+hi link sqlType String
+hi link sqlKeyword Conditional
 
 
 """"""""""""""""""""""""""""""
