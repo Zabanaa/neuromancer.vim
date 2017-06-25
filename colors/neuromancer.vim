@@ -14,8 +14,7 @@ let s:colors = {
     \ "dark_purple": "#8C77F0",
     \ "light_purple": "#858EED",
     \ "dark_gray": "#7E7E7E",
-    \ "off_orange": "#EB942A",
-    \ "orange": "#f99a34",
+    \ "orange": "#ffb44e",
     \ "red": "#ff586b",
     \ "pink": "#f72358",
     \ "light_pink": "#DE347A",
@@ -157,6 +156,7 @@ hi link NERDTreeCWD pythonConditional
 """"""""""""""""""""""""""""""""
 
 hi link javascriptConditional Conditional
+hi link javascriptEndColons Normal
 hi javascriptParens guifg=NONE guibg=NONE gui=NONE
 hi javascriptBraces guifg=NONE guibg=NONE gui=NONE
 hi link javascriptFuncArg String
@@ -173,17 +173,17 @@ hi link javascriptLogicSymbols javascriptConditional
 hi link javascriptGlobal javascriptNull
 hi link javascriptBrowserObjects PreProc
 hi link javascriptMessage LineNr
-hi link javascriptHtmlElemProperties javascriptNull
+hi link javascriptHtmlElemProperties PreProc
 hi link javascriptDOMObjects LineNr
 hi link javascriptHtmlEvents String
-hi link javascriptReserved pythonException
+hi link javascriptReserved Statement
 
 hi link javascriptGlobalObjects LineNr
 hi link javascriptPrototype String
 hi link javascriptEventListenerKeywords Function
 hi link javascriptAjaxMethods Function
-hi link javascriptAjaxProperties javascriptNull
-hi link javascriptDOMMethods String
+hi link javascriptAjaxProperties Statement
+hi link javascriptDOMMethods Function
 hi link javascriptWebAPI LineNr
 hi link javascriptOperator Function
 hi link javascriptOpSymbols Function
