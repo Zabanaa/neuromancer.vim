@@ -8,8 +8,8 @@ endif
 
 let g:colors_name = "neuromancer"
 let s:colors = {
-    \ "dark_blue": "#277BD3",
-    \ "turquoise": "#97DCDA",
+    \ "dark_blue": "#5AADFF",
+    \ "turquoise": "#9AEEFF",
     \ "pop_purple": "#DC91DC",
     \ "dark_purple": "#8C77F0",
     \ "light_purple": "#858EED",
@@ -19,7 +19,7 @@ let s:colors = {
     \ "red": "#f72358",
     \ "pink": "#f72358",
     \ "light_pink": "#DE347A",
-    \ "hot_pink": "#F23B92",
+    \ "hot_pink": "#FF67AD",
     \ "black": "#050809",
     \ "white": "#FFFFFF",
 \ }
