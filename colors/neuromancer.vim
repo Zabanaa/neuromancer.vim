@@ -7,30 +7,51 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "neuromancer"
+let s:colors = {
+    \ "dark_blue": "#277BD3",
+    \ "turquoise": "#97DCDA",
+    \ "pop_purple": "#DC91DC",
+    \ "dark_purple": "#8C77F0",
+    \ "light_purple": "#858EED",
+    \ "dark_gray": "#7E7E7E",
+    \ "off_orange": "#EB942A",
+    \ "orange": "#f99a34",
+    \ "red": "#f72358",
+    \ "pink": "#f72358",
+    \ "light_pink": "#DE347A",
+    \ "hot_pink": "#F23B92",
+    \ "black": "#050809",
+    \ "white": "#FFFFFF",
+\ }
 
-" separator
-" MatchParen
-" Special
-" Identifier
-" Type
-" Error (currenlty white on red)
-" Todo (currently blue on yellow)
+function! Hi(name, guifg, guibg, gui)
+    let l:cmd = "hi " . a:name . " guibg=" . a:guibg . " guifg=" . a:guifg . " gui=" . a:gui
+    exe l:cmd
+endfunc
 
-hi ColorColumn guibg=#f23b92 guifg=NONE gui=NONE
-hi Conditional guifg=#D961DC guibg=NONE gui=NONE
-hi link Constant Function
-hi Statement guifg=#277BD3 guibg=NONE gui=NONE
-hi Normal guibg=#050809 guifg=#ffffff
-hi LineNr guifg=#858eed
-hi CursorLineNr guifg=#ffffff
-hi Comment guifg=#7e7e7e guibg=NONE gui=NONE
-hi PreProc guifg=#eb942a guibg=NONE gui=NONE
-hi String guifg=#96dcda guibg=NONE gui=NONE
-hi Number guifg=#8c57f0 guibg=NONE gui=NONE
-hi link Float Number
-hi Function guifg=#de347a guibg=NONE gui=NONE
-hi Repeat guifg=#f72358 guibg=NONE gui=NONE
-hi Operator guifg=#f72358 guibg=NONE gui=NONE
+call Hi("Normal", s:colors["white"], s:colors["black"], "NONE")
+call Hi("ColorColumn", "NONE", s:colors["hot_pink"],"NONE")
+call Hi("LineNr", s:colors["light_purple"], "NONE", "NONE")
+call Hi("CursorLineNr", s:colors["white"], "NONE", "NONE")
+call Hi("Conditional", s:colors["light_purple"], "NONE", "NONE")
+call Hi("Function", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("Constant", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("Statement", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("Comment", s:colors["dark_gray"], "NONE", "NONE")
+call Hi("PreProc", s:colors["orange"], "NONE", "NONE")
+call Hi("String", s:colors["turquoise"], "NONE", "NONE")
+call Hi("Number", s:colors["dark_purple"], "NONE", "NONE")
+call Hi("Float", s:colors["dark_purple"], "NONE", "NONE")
+call Hi("Repeat", s:colors["red"], "NONE", "NONE")
+call Hi("Operator", s:colors["red"], "NONE", "NONE")
+
+""""""""""""""""""""""""""""""
+"    SQL specific settings   "
+"                            "
+""""""""""""""""""""""""""""""
+hi link sqlFunction Conditional
+hi link sqlKeyword Function
+
 
 """"""""""""""""""""""""""""""
 "   HTML specific settings   "
@@ -47,7 +68,6 @@ hi link htmlH3 htmlTitle
 hi link htmlH4 htmlTitle
 hi link htmlH5 htmlTitle
 hi link htmlH6 htmlTitle
-
 
 """"""""""""""""""""""""""""""
 "  Python specific settings  "
@@ -69,6 +89,11 @@ hi link pythonBuiltinObj pythonRepeat
 "   Vim specific settings    "
 "                            "
 """"""""""""""""""""""""""""""
+hi link vimFunction Function
+hi link vimUserFunc Function
+hi link vimOperParen Normal
+hi link vimParenSep Function
+hi link vimFuncVar Conditional
 hi link vimHiLink Function
 hi link vimHiGroup Function
 hi link vimGroup String
@@ -223,5 +248,11 @@ hi link cssTagName String
 hi link cssAttrComma String
 hi link cssSelectorOp Function
 
-
+" separator
+" MatchParen
+" Special
+" Identifier
+" Type
+" Error (currenlty white on red)
+" Todo (currently blue on yellow)
 
