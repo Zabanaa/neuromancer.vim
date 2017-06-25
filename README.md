@@ -14,8 +14,8 @@ I intend to fully support the following languages:
 - [x] Sass
 - [x] HTML
 - [x] Vim
+- [x] SQL
 
-- [ ] SQL
 - [ ] Bash
 - [ ] Golang
 
