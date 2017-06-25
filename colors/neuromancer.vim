@@ -167,7 +167,7 @@ hi javascriptFuncEq guifg=NONE guibg=NONE gui=NONE
 hi javascriptEndColons guifg=NONE guibg=NONE gui=NONE
 hi link javascriptIdentifier LineNr
 hi link javascriptNull pythonBuiltinObj
-hi link javascriptBoolean javascriptFuncExp
+hi link javascriptBoolean Conditional
 hi link javascriptExceptions LineNr
 hi link javascriptLogicSymbols javascriptConditional
 hi link javascriptGlobal javascriptNull
@@ -177,7 +177,6 @@ hi link javascriptHtmlElemProperties PreProc
 hi link javascriptDOMObjects LineNr
 hi link javascriptHtmlEvents String
 hi link javascriptReserved Statement
-
 hi link javascriptGlobalObjects LineNr
 hi link javascriptPrototype String
 hi link javascriptEventListenerKeywords Function
@@ -188,6 +187,8 @@ hi link javascriptWebAPI LineNr
 hi link javascriptOperator Function
 hi link javascriptOpSymbols Function
 hi link javascriptParens Normal
+hi link javascriptTemplateVar PreProc
+hi link javascriptTemplateDelim PreProc
 
 """"""""""""""""""""""""""""""""
 "   Sass specific settings     "
