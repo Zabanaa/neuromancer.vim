@@ -8,8 +8,8 @@ endif
 
 let g:colors_name = "neuromancer"
 let s:colors = {
-    \ "dark_blue": "#5AADFF",
-    \ "turquoise": "#9AEEFF",
+    \ "dark_blue": "#63ABD3",
+    \ "turquoise": "#6AFFB7",
     \ "pop_purple": "#DC91DC",
     \ "dark_purple": "#8C77F0",
     \ "light_purple": "#858EED",
@@ -18,10 +18,11 @@ let s:colors = {
     \ "red": "#ff586b",
     \ "pink": "#f72358",
     \ "light_pink": "#DE347A",
-    \ "hot_pink": "#FF67AD",
+    \ "hot_pink": "#E9729F",
     \ "black": "#050809",
     \ "white": "#FFFFFF",
     \ "green": "#36D977",
+    \ "yellow": "#FFF313",
 \ }
 
 function! Hi(name, guifg, guibg, gui)
@@ -155,6 +156,20 @@ hi link NERDTreeCWD pythonConditional
 " Javascript specific settings "
 "                              "
 """"""""""""""""""""""""""""""""
+hi link javascriptImport Statement
+hi link javascriptExport Statement
+hi link javascriptIdentifierName Normal
+hi link javascriptVariable Conditional
+hi link javascriptNodeGlobal Function
+hi link javascriptBOMWindowMethod Function
+hi link javascriptTry Conditional
+hi link javascript_asserter Repeat
+hi link javascriptOperator Statement
+hi link javascriptBOMWindowProp Function
+
+call Hi("javascriptFuncArg", s:colors["yellow"], "NONE", "NONE")
+call Hi("javascriptNumber", s:colors["turquoise"], "NONE", "NONE")
+call Hi("javascriptObjectLabel", s:colors["dark_purple"], "NONE", "NONE")
 
 hi link javascriptConditional Conditional
 hi link javascriptEndColons Normal
@@ -171,7 +186,7 @@ hi link javascriptNull pythonBuiltinObj
 hi link javascriptBoolean Conditional
 hi link javascriptExceptions LineNr
 hi link javascriptLogicSymbols javascriptConditional
-hi link javascriptGlobal javascriptNull
+hi link javascriptGlobal Function
 hi link javascriptBrowserObjects PreProc
 hi link javascriptMessage LineNr
 hi link javascriptHtmlElemProperties PreProc
@@ -185,7 +200,7 @@ hi link javascriptAjaxMethods Function
 hi link javascriptAjaxProperties Statement
 hi link javascriptDOMMethods Function
 hi link javascriptWebAPI LineNr
-hi link javascriptOperator Function
+hi link javascriptOperator Statement
 hi link javascriptOpSymbols Function
 hi link javascriptParens Normal
 hi link javascriptTemplateVar PreProc
