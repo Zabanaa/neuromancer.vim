@@ -16,6 +16,7 @@ I intend to fully support the following languages:
 - [x] Vim
 - [x] SQL
 
+- [ ] Nginx Config Files
 - [ ] Bash
 - [ ] Golang
 
@@ -43,3 +44,20 @@ Then, in your .vimrc file, simply change the colorscheme line to the following:
 
 Feel free to leave any feedback, notes or comments. I'm
 [@zabanaa\_](https://twitter.com/zabanaa_) on twitter.
+
+## Further Notes
+
+For syntax highlighting, I use the following plugins:
+
+* chr4/nginx.vim
+* pearofducks/ansible.vim
+* mxw/vim-jsx
+* lifepillar/pgsql.vim
+* fatih/vim-go
+* mitsuhiko/vim-jinja
+* othree/yajs.vim
+* othree/es.next.syntax.vim
+* othree/javascript-libraries-syntax.vim
+* digitaltoad/vim-pug
+* tpope/vim-markdown
+* hdima/python-syntax
