@@ -10,7 +10,7 @@ let g:colors_name = "neuromancer"
 let s:colors = {
     \ "dark_blue": "#54C9FF",
     \ "turquoise": "#6AFFB7",
-    \ "dark_purple": "#282948",
+    \ "dark_purple": "#1B1C30",
     \ "light_purple": "#858EED",
     \ "dark_gray": "#7E7E7E",
     \ "orange": "#ED6352",
