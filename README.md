@@ -15,6 +15,7 @@ I intend to fully support the following languages:
 - [x] HTML
 - [x] Vim
 - [x] SQL
+- [x] Typescript
 
 - [ ] Nginx Config Files
 - [ ] Bash
@@ -50,6 +51,7 @@ Feel free to leave any feedback, notes or comments. I'm
 For syntax highlighting, I use the following plugins:
 
 * chr4/nginx.vim
+* leafgarland/typescript-vim
 * pearofducks/ansible.vim
 * mxw/vim-jsx
 * lifepillar/pgsql.vim
