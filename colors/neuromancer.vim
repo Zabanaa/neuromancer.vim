@@ -275,3 +275,31 @@ call Hi("cssValueLength", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("cssValueNumber", s:colors["dark_blue"], "NONE", "NONE")
 
 
+""""""""""""""""""""""""""""""""
+" TypeScript specific settings "
+"                              "
+""""""""""""""""""""""""""""""""
+
+call Hi("typescriptExceptions", s:colors["red"], "NONE", "NONE")
+call Hi("typescriptIdentifier", s:colors["light_purple"], "NONE", "NONE")
+call Hi("typescriptType", s:colors["green"], "NONE", "NONE")
+call Hi("typescriptNull", s:colors["green"], "NONE", "NONE")
+call Hi("typescriptOperator", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("typescriptNumber", s:colors["green"], "NONE", "NONE")
+call Hi("typescriptStatement", s:colors["light_purple"], "NONE", "NONE")
+call Hi("typescriptLabel", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("typescriptDecorators", s:colors["hot_pink"], "NONE", "NONE")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
