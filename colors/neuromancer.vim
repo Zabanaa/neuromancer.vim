@@ -290,9 +290,24 @@ call Hi("typescriptStatement", s:colors["light_purple"], "NONE", "NONE")
 call Hi("typescriptLabel", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("typescriptDecorators", s:colors["hot_pink"], "NONE", "NONE")
 
+""""""""""""""""""""""""""""""""
+"   Golang specific settings   "
+"                              "
+""""""""""""""""""""""""""""""""
 
+call Hi("goType", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goFloats", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goComplexes", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goSignedInts", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goUnsignedInts", s:colors["dark_blue"], "NONE", "NONE")
 
-
+call Hi("goUnsignedInts", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goDeclaration", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("goLabel", s:colors["light_purple"], "NONE", "NONE")
+call Hi("goDirective", s:colors["light_purple"], "NONE", "NONE")
+call Hi("goDeclType", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goBuiltins", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("goFloat", s:colors["light_purple"], "NONE", "NONE")
 
 
 

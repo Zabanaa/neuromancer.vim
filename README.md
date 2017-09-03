@@ -15,12 +15,11 @@ I intend to fully support the following languages:
 - [x] HTML
 - [x] Vim
 - [x] SQL
+- [x] Golang
 - [x] Typescript
 
 - [ ] Nginx Config Files
 - [ ] Bash
-- [ ] Golang
-
 - [ ] Jinja2 (the templating engine)
 - [ ] Yaml
 - [ ] Docker
