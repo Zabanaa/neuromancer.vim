@@ -17,8 +17,10 @@ I intend to fully support the following languages:
 - [x] SQL
 - [x] Golang
 - [x] Typescript
+- [x] JSON
 
 - [ ] Nginx Config Files
+
 - [ ] Bash
 - [ ] Jinja2 (the templating engine)
 - [ ] Yaml
