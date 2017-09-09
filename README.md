@@ -18,8 +18,7 @@ I intend to fully support the following languages:
 - [x] Golang
 - [x] Typescript
 - [x] JSON
-
-- [ ] Nginx Config Files
+- [x] Nginx Config Files
 
 - [ ] Bash
 - [ ] Jinja2 (the templating engine)
