@@ -310,11 +310,13 @@ call Hi("goBuiltins", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("goFloat", s:colors["light_purple"], "NONE", "NONE")
 
 
+""""""""""""""""""""""""""""""""
+"    JSON specific settings    "
+"                              "
+""""""""""""""""""""""""""""""""
 
-
-
-
-
-
-
-
+call Hi("jsonBraces", s:colors["white"], "NONE", "NONE")
+call Hi("jsonNumber", s:colors["light_purple"], "NONE", "NONE")
+call Hi("jsonBoolean", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("jsonNull", s:colors["orange"], "NONE", "NONE")
+call Hi("jsonNoQuotesError", s:colors["white"], s:colors["red"], "NONE")
