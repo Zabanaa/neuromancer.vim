@@ -320,3 +320,17 @@ call Hi("jsonNumber", s:colors["light_purple"], "NONE", "NONE")
 call Hi("jsonBoolean", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("jsonNull", s:colors["orange"], "NONE", "NONE")
 call Hi("jsonNoQuotesError", s:colors["white"], s:colors["red"], "NONE")
+
+""""""""""""""""""""""""""""""""
+"   Nginx specific settings    "
+"                              "
+""""""""""""""""""""""""""""""""
+
+call Hi("ngxDirectiveImportant", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("ngxDirective", s:colors["yellow"], "NONE", "NONE")
+call Hi("ngxListenOptions", s:colors["green"], "NONE", "NONE")
+call Hi("ngxIPaddr", s:colors["yellow"], "NONE", "NONE")
+call Hi("ngxInteger", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("ngxDirective", s:colors["light_purple"], "NONE", "NONE")
+
+
