@@ -63,3 +63,18 @@ For syntax highlighting, I use the following plugins:
 * digitaltoad/vim-pug
 * tpope/vim-markdown
 * hdima/python-syntax
+
+If you use golang, you might want to enable the following setting for a better
+experience:
+
+```bash
+# .vimrc
+
+let g:go_highlight_operators    = 1
+let g:go_highlight_functions    = 1
+let g:go_highlight_methods      = 1
+let g:go_highlight_types        = 1
+let g:go_highlight_fields       = 1
+let g:go_highlight_variable_declarations = 1
+let g:go_fmt_command            = "goimports"
+```
