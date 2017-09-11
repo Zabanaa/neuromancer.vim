@@ -305,9 +305,17 @@ call Hi("goUnsignedInts", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("goDeclaration", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("goLabel", s:colors["light_purple"], "NONE", "NONE")
 call Hi("goDirective", s:colors["light_purple"], "NONE", "NONE")
-call Hi("goDeclType", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("goDeclType", s:colors["green"], "NONE", "NONE")
+call Hi("goTypeDecl", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("goBuiltins", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("goFloat", s:colors["light_purple"], "NONE", "NONE")
+call Hi("goTypeName", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("goFunction", s:colors["light_purple"], "NONE", "NONE")
+call Hi("goReceiverType", s:colors["green"], "NONE", "NONE")
+call Hi("goPointerOperator", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("goMethodCall", s:colors["light_purple"], "NONE", "NONE")
+call Hi("goOperator", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("goField", s:colors["green"], "NONE", "NONE")
 
 
 """"""""""""""""""""""""""""""""
