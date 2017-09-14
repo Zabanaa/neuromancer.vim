@@ -3,9 +3,6 @@
 Neuromancer is a vim colorscheme compatible with gVim and terminal vim (versions
 higher than 7.4). It's inspired by the "High Tech, Low Life" philosophy.
 
-Right now it's under active development and will frequently change as I add new
-colors.
-
 I intend to fully support the following languages:
 
 - [x] Python
@@ -30,7 +27,7 @@ It's going to be a lot of work, but also a lot of fun.
 ## Installation instructions
 
 To start using the colorscheme, simply copy it over to your `.vim/colors`
-directory. (You can create it if you don't have it)
+directory. (You can create it if you don't already have it)
 
 ```bash
 git clone https://github.com/Zabanaa/neuromancer.vim.git
@@ -40,7 +37,7 @@ git clone https://github.com/Zabanaa/neuromancer.vim.git
 
 cp neuromancer.vim/colors/neuromancer.vim ~/.vim/colors/
 ```
-Then, in your .vimrc file, simply change the colorscheme line to the following:
+Then, in your .vimrc file, simply change (or add) the `colorscheme` line to the following:
 `colorscheme neuromancer`
 
 Feel free to leave any feedback, notes or comments. I'm
@@ -64,8 +61,8 @@ For syntax highlighting, I use the following plugins:
 * tpope/vim-markdown
 * hdima/python-syntax
 
-If you use golang, you might want to enable the following setting for a better
-experience:
+If you use vim-go, you might want to enable the following settings for a better,
+enhanced experience:
 
 ```bash
 # .vimrc
