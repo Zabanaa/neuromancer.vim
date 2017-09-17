@@ -19,7 +19,7 @@ let s:colors = {
     \ "black": "#050809",
     \ "white": "#F7F9F9",
     \ "green": "#2CEAA3",
-    \ "yellow": "#FFF94F",
+    \ "yellow": "#FFE954",
 \ }
 
 function! Hi(name, guifg, guibg, gui)
