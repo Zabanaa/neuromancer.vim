@@ -11,7 +11,7 @@ let s:colors = {
     \ "dark_blue": "#54C9FF",
     \ "turquoise": "#6AFFB7",
     \ "dark_purple": "#121424",
-    \ "light_purple": "#858EED",
+    \ "light_purple": "#9BA0ED",
     \ "dark_gray": "#7E7E7E",
     \ "orange": "#ED6352",
     \ "red": "#ff586b",
