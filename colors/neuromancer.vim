@@ -18,7 +18,7 @@ let s:colors = {
     \ "hot_pink": "#E9729F",
     \ "black": "#050809",
     \ "white": "#F7F9F9",
-    \ "green": "#2CEAA3",
+    \ "green": "#37CFC4",
     \ "yellow": "#FFE954",
 \ }
 
