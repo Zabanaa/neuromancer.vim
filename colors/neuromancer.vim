@@ -13,7 +13,7 @@ let s:colors = {
     \ "dark_purple": "#121424",
     \ "light_purple": "#9BA0ED",
     \ "dark_gray": "#7E7E7E",
-    \ "orange": "#ED6352",
+    \ "orange": "#ffa659",
     \ "red": "#ff586b",
     \ "hot_pink": "#E9729F",
     \ "black": "#050809",
@@ -343,3 +343,12 @@ call Hi("ngxInteger", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("ngxDirective", s:colors["light_purple"], "NONE", "NONE")
 
 
+""""""""""""""""""""""""""""""""
+"  Makefile specific settings  "
+"                              "
+""""""""""""""""""""""""""""""""
+
+call Hi("makeIdent", s:colors["turquoise"], "NONE", "NONE")
+call Hi("makePreCondit", s:colors["light_purple"], "NONE", "NONE")
+call Hi("makeStatement", s:colors["yellow"], "NONE", "NONE")
+call Hi("makeCommands", s:colors["dark_blue"], "NONE", "NONE")
