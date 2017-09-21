@@ -43,12 +43,9 @@ call Hi("Float", s:colors["dark_purple"], "NONE", "NONE")
 call Hi("Repeat", s:colors["red"], "NONE", "NONE")
 call Hi("Operator", s:colors["red"], "NONE", "NONE")
 
-""""""""""""""""""""""""""""""
-"    SQL specific settings   "
-"                            "
-""""""""""""""""""""""""""""""
 call Hi("sqlType", s:colors["yellow"], "NONE", "NONE")
 call Hi("sqlKeyword", s:colors["light_purple"], "NONE", "NONE")
+call Hi("sqlSpecial", s:colors["orange"], "NONE", "NONE")
 
 """"""""""""""""""""""""""""""
 "   HTML specific settings   "
