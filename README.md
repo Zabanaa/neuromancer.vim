@@ -16,6 +16,7 @@ I intend to fully support the following languages:
 - [x] Typescript
 - [x] JSON
 - [x] Nginx Config Files
+- [x] Makefiles
 
 - [ ] Bash
 - [ ] Jinja2 (the templating engine)
