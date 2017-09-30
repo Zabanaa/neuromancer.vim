@@ -9,17 +9,17 @@ endif
 let g:colors_name = "neuromancer"
 let s:colors = {
     \ "dark_blue": "#54C9FF",
-    \ "turquoise": "#6AFFB7",
+    \ "turquoise": "#65F2F2",
     \ "dark_purple": "#121424",
-    \ "light_purple": "#9BA0ED",
+    \ "light_purple": "#A2A0DF",
     \ "dark_gray": "#7E7E7E",
-    \ "orange": "#ffa659",
+    \ "orange": "#FDA549",
     \ "red": "#ff586b",
     \ "hot_pink": "#E9729F",
     \ "black": "#050809",
     \ "white": "#F7F9F9",
     \ "green": "#37CFC4",
-    \ "yellow": "#FFE954",
+    \ "yellow": "#F4DE68",
 \ }
 
 function! Hi(name, guifg, guibg, gui)
@@ -347,5 +347,6 @@ call Hi("ngxDirective", s:colors["light_purple"], "NONE", "NONE")
 
 call Hi("makeIdent", s:colors["turquoise"], "NONE", "NONE")
 call Hi("makePreCondit", s:colors["light_purple"], "NONE", "NONE")
-call Hi("makeStatement", s:colors["yellow"], "NONE", "NONE")
+call Hi("makeStatement", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("makeCommands", s:colors["dark_blue"], "NONE", "NONE")
+call Hi("makeSpecial", s:colors["orange"], "NONE", "NONE")
