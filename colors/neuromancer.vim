@@ -350,3 +350,20 @@ call Hi("makePreCondit", s:colors["light_purple"], "NONE", "NONE")
 call Hi("makeStatement", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("makeCommands", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("makeSpecial", s:colors["orange"], "NONE", "NONE")
+
+""""""""""""""""""""""""""""""""
+"    YAML specific settings    "
+"                              "
+""""""""""""""""""""""""""""""""
+
+call Hi("yamlDocumentStart", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("yamlDocumentEnd", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("yamlNodeTag", s:colors["light_purple"], "NONE", "NONE")
+call Hi("yamlBlockMappingKey", s:colors["turquoise"], "NONE", "NONE")
+call Hi("yamlKeyValueDelimiter", s:colors["white"], "NONE", "NONE")
+call Hi("yamlInteger", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("yamlFloat", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("yamlAnchor", s:colors["yellow"], "NONE", "NONE")
+call Hi("yamlAlias", s:colors["light_purple"], "NONE", "NONE")
+call Hi("yamlFlowIndicator", s:colors["hot_pink"], "NONE", "NONE")
+call Hi("yamlFlowMappingKey", s:colors["dark_blue"], "NONE", "NONE")
