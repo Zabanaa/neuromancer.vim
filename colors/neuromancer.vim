@@ -81,7 +81,7 @@ call Hi("pythonStrFormat", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("pythonStrFormatting", s:colors["dark_blue"], "NONE", "NONE")
 call Hi("pythonConditional", s:colors["light_purple"], "NONE", "NONE")
 call Hi("pythonBoolean", s:colors["hot_pink"], "NONE", "NONE")
-call Hi("pythonBuilinObj", s:colors["green"], "NONE", "NONE")
+call Hi("pythonBuiltinObj", s:colors["green"], "NONE", "NONE")
 call Hi("pythonRun", "#575758", "NONE", "NONE")
 
 """"""""""""""""""""""""""""""
