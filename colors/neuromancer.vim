@@ -312,7 +312,7 @@ call Hi("goReceiverType", s:colors["green"], "NONE", "NONE")
 call Hi("goPointerOperator", s:colors["hot_pink"], "NONE", "NONE")
 call Hi("goMethodCall", s:colors["light_purple"], "NONE", "NONE")
 call Hi("goOperator", s:colors["hot_pink"], "NONE", "NONE")
-call Hi("goField", s:colors["green"], "NONE", "NONE")
+call Hi("goField", s:colors["turquoise"], "NONE", "NONE")
 call Hi("goFunctionCall", s:colors["dark_blue"], "NONE", "NONE")
 
 
