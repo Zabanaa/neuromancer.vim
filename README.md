@@ -17,12 +17,11 @@ I intend to fully support the following languages:
 - [x] JSON
 - [x] Nginx Config Files
 - [x] Makefiles
+- [x] Yaml
+- [x] Docker
 
 - [ ] Bash
 - [ ] Jinja2 (the templating engine)
-- [ ] Yaml
-- [ ] Docker
-
 It's going to be a lot of work, but also a lot of fun.
 
 ## Installation instructions
