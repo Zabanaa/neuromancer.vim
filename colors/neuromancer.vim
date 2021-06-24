@@ -39,7 +39,7 @@ call Hi("Comment", s:colors["dark_gray"], "NONE", "NONE")
 call Hi("PreProc", s:colors["orange"], "NONE", "NONE")
 call Hi("String", s:colors["yellow"], "NONE", "NONE")
 call Hi("Number", s:colors["light_purple"], "NONE", "NONE")
-call Hi("Float", s:colors["dark_purple"], "NONE", "NONE")
+call Hi("Float", s:colors["light_purple"], "NONE", "NONE")
 call Hi("Repeat", s:colors["red"], "NONE", "NONE")
 call Hi("Operator", s:colors["red"], "NONE", "NONE")
 
